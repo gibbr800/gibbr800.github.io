@@ -1,9 +1,38 @@
 h1 {
 	color: #E8398A;
     font-family: 'Lobster', cursive;
+    font-size: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: normal;
+    margin: 40px 20px 40px 20px;
 }
 
 h2 {
     color: #EC80B2;
     font-family: 'Arapey', serif;
+}
+
+h3 {
+}
+
+p {
+    
+}
+
+.mw-body-content {
+    font-family: "avenir";
+    width: 100%;
+}
+
+.ol.references, div.reflist, div.refbegin {
+    font-family: "avenir"
+}
+
+.sitesub {
+    
+}
+
+.infobox td, .infobox th {
+    
 }
