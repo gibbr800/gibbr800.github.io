@@ -1,7 +1,7 @@
 h1 {
 	color: #E8398A;
     font-family: 'Lobster', cursive;
-    font-size: 100px;
+    font-size: 200px;
     padding-bottom: 20px;
     text-align: center;
     font-weight: normal;
@@ -9,24 +9,44 @@ h1 {
 }
 
 h2 {
-    color: #EC80B2;
-    font-family: 'Arapey', serif;
+    color: #E5217E;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1.5px;
 }
 
 h3 {
 }
+
+body {
+    background-color: #FFB6CE;
+    border-style: solid;
+    border-color: #E53758;
+    border-width: 20px;
+    padding-bottom: 670em;
+    clear: both;
+
+    
+}
+a {
+    color: #BF1B69;
+}
+
 
 p {
     
 }
 
 .mw-body-content {
-    font-family: "avenir";
-    width: 100%;
+    color: #400923;
+    font-family: 'Clicker Script', cursive;
+    font-size: 20px;
+    float: left;
+    padding: 10px 20px 10px 20px;
 }
 
 .ol.references, div.reflist, div.refbegin {
-    font-family: "avenir"
+    color: #400923;
+    font-family: 'Clicker Script', cursive;
 }
 
 .sitesub {
