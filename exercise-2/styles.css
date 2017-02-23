@@ -22,7 +22,7 @@ body {
     border-style: solid;
     border-color: #E53758;
     border-width: 20px;
-    padding-bottom: 670em;
+    padding-bottom: 530em;
     clear: both;
 
     
@@ -31,14 +31,39 @@ a {
     color: #BF1B69;
 }
 
-
-p {
-    
+.mw-body a.external:visited {
+    color: #BF0061;
 }
+
+img {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.toc {
+    background-color: #FF6195;
+    border: 5px dotted white;
+    border-radius: 20px;
+    display:inline-block;
+}
+
+.infobox td, .infobox th {
+    vertical-align: top;
+}
+
+div.thumbinner{
+    background-color: #E55886;
+    border: 5px dotted white;
+    border-radius: 20px;
+    padding: 3px;
+    font-size: 94%;
+}
+
 
 .mw-body-content {
     color: #400923;
-    font-family: 'Clicker Script', cursive;
+    font-family: 'Delius Swash Caps', cursive;
     font-size: 20px;
     float: left;
     padding: 10px 20px 10px 20px;
@@ -46,13 +71,28 @@ p {
 
 .ol.references, div.reflist, div.refbegin {
     color: #400923;
-    font-family: 'Clicker Script', cursive;
+    font-family: 'Delius Swash Caps', cursive;
+
 }
 
-.sitesub {
-    
+.infobox {
+    background-color: #FF6195;
+    border: 5px dotted white;
+    border-radius: 20px;
+    clear: right;
+    float: right;
+    font-size: 80%;
+    line-height: 1.5em;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
 }
 
-.infobox td, .infobox th {
-    
+html body.mediawiki .mbox-small {
+    background-color: #FF6195;
+    border: 5px dotted white;
+    border-radius: 20px;
+    clear: right;
+    float: right;
+    margin: 4px 0 4px 1em;
+    width: 238px;
 }
