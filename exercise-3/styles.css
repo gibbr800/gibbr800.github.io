@@ -36,8 +36,15 @@ body {
 
     
 }
+
 a {
     color: #BF1B69;
+}
+
+a:hover {
+    opacity: 0;
+    text-decoration: none;
+    
 }
 
 .mw-body a.external:visited {
@@ -50,9 +57,11 @@ img {
     
 }
 
-.hk-overlay:hover {
-    background: url(hellokitty-wikipedia_files/hk-overlay.jpg)
-}
+/*.hk-overlay:hover {
+    background: url(hellokitty-wikipedia_files/hk-overlay.jpg);
+    display: block;
+    transition-timing-function: ease-in-out;
+}*/
 
 .toc {
     background-color: #FF6195;
@@ -60,6 +69,11 @@ img {
     border-radius: 20px;
     display:inline-block;
 }
+
+.toc:hover {
+    background-color: white;
+}
+
 
 .infobox td, .infobox th {
     vertical-align: top;
