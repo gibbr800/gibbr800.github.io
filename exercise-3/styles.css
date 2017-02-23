@@ -57,6 +57,10 @@ img {
     
 }
 
+.fotorama {
+    clear: both;
+    
+}
 /*.hk-overlay:hover {
     background: url(hellokitty-wikipedia_files/hk-overlay.jpg);
     display: block;
