@@ -1,5 +1,4 @@
 h1 {
-    animation: title 5s linear 2s infinite alternate;
 	color: #E8398A;
     font-family: 'Lobster', cursive;
     font-size: 200px;
@@ -9,20 +8,22 @@ h1 {
     margin: 40px 20px 40px 20px;
 }
 
-@keyframes title {
-    0%   
-    25%  
-    50%  
-    100% 
+h1:hover {
+    animation: title .5s ease-in-out 1s infinite alternate;
+    text-decoration: none;
+}
+
+
+
+@keyframes title { /* horizontal(x),vertical(y)*/
+    from {transform: translate(0, 0);}
+    to {transform: translate(0, -100px);}
 }
 
 h2 {
     color: #E5217E;
     font-family: 'Lobster', cursive;
     letter-spacing: 1.5px;
-}
-
-h3 {
 }
 
 body {
@@ -48,6 +49,30 @@ img {
     margin: auto;
     
 }
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+
 
 .toc {
     background-color: #FF6195;
