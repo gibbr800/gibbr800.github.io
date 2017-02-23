@@ -1,0 +1,106 @@
+h1 {
+    animation: title 5s linear 2s infinite alternate;
+	color: #E8398A;
+    font-family: 'Lobster', cursive;
+    font-size: 200px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: normal;
+    margin: 40px 20px 40px 20px;
+}
+
+@keyframes title {
+    0%   
+    25%  
+    50%  
+    100% 
+}
+
+h2 {
+    color: #E5217E;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1.5px;
+}
+
+h3 {
+}
+
+body {
+    background-color: #FFB6CE;
+    border-style: solid;
+    border-color: #E53758;
+    border-width: 20px;
+    padding-bottom: 530em;
+    clear: both;
+
+    
+}
+a {
+    color: #BF1B69;
+}
+
+.mw-body a.external:visited {
+    color: #BF0061;
+}
+
+img {
+    display: block;
+    margin: auto;
+    
+}
+
+.toc {
+    background-color: #FF6195;
+    border: 5px dotted white;
+    border-radius: 20px;
+    display:inline-block;
+}
+
+.infobox td, .infobox th {
+    vertical-align: top;
+}
+
+div.thumbinner{
+    background-color: #E55886;
+    border: 5px dotted white;
+    border-radius: 20px;
+    padding: 3px;
+    font-size: 94%;
+}
+
+
+.mw-body-content {
+    color: #400923;
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 20px;
+    float: left;
+    padding: 10px 20px 10px 20px;
+}
+
+.ol.references, div.reflist, div.refbegin {
+    color: #400923;
+    font-family: 'Delius Swash Caps', cursive;
+
+}
+
+.infobox {
+    background-color: #FF6195;
+    border: 5px dotted white;
+    border-radius: 20px;
+    clear: right;
+    float: right;
+    font-size: 80%;
+    line-height: 1.5em;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
+}
+
+html body.mediawiki .mbox-small {
+    background-color: #FF6195;
+    border: 5px dotted white;
+    border-radius: 20px;
+    clear: right;
+    float: right;
+    margin: 4px 0 4px 1em;
+    width: 238px;
+}
