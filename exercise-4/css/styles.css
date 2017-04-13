@@ -1,61 +1,354 @@
 .status-bar {
-    padding-top: 10px;
-    padding-left: 5px;
+    
+    width:100%;
+    
+}
+
+/*All Access Headers*/
+
+.aa-header {
+    position: absolute;
+    width: 32.8%;
+}
+
+#login-header {
+    width: 100%;
+}
+
+
+/*General Headers*/
+
+#sandwich-icon {
+    float: right;
+    padding: 40px 15px 0 0;
+    position: relative;
+    width: 6%;
+}
+
+#sandwich-icon-header {
+    float: right;
+    padding: 40px 15px 0 0;
+    position: relative;
+    width: 6%;
+}
+
+#search-icon {
+    float: right;
+    padding: 34px 30px 0 0;
+    position: relative;
+    width: 8%;
+}
+
+#profile-icon {
+    float: left;
+    padding: 34px 0 0 15px;
+    position: relative;
+    width: 8%;
+}
+
+.header-logo {
+    clear: both;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 80%;
+    
 }
 
 .help {
     float: right;
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
+    width: 8%;
     
 }
 
-.header-logo {
-   padding: 30px 20px 50px 30px;
-    
+ul {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    list-style-type: none;
+    padding: 170px 0 0 0;
+    position: relative;
+    text-align: center;
 }
+
+ul a:link {
+    color: white;
+}
+
+ul a:visited {
+    color: white;
+}
+
+#nav-text {
+    padding: 12px;
+}
+
+/*General Body*/
 
 body {
-    background: #FFFFFF;
-    box-shadow: 10px 10px 60px 0px #888888;
+    background: gray;
+    margin:0;
+}
+.container {
     width: 375px;
     height: 667px;
- 
+    box-shadow: 10px 10px 60px 0px #888888; 
+    background: #FFFFFF;
+    margin:0 auto;
 }
 
-h1 {
-    font-family: 'helvetica';
-    font-size: 64px;
-    color: #FFFFFF;
+#login-help {
+    position: absolute;
+    width: 33.2%;
 }
 
-h2 {
+a {
     color: white;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 36px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 30px;
     font-weight: lighter;
-    padding: 20px 85px 10px 100px;
-    text-align: center;
+    list-style-type: none;
+    position: relative;
 }
 
 a:link {
     text-decoration: none;
+    
 }
 
-a:visited {
-    background-color: #DE2A2A;
+h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: lighter;
+    text-align: center;
 }
 
-a:hover {
-    background-color: #E36F6F;
+h2 {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    margin: 0;
+    padding: 17px 0;
+    font-weight: lighter;
+    text-align: center;
 }
 
+h3 {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.page-header {
+}
+
+.post-author-timestamp {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight:normal;
+    text-align: center;
+}
+
+#post-author {
+    color: #DE2A2A;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight:normal;
+    text-align: center;
+}
+
+#white-gradient {
+    width: 32.72%;
+    padding: 31px 5px 0 0;
+    position: absolute;
+}
+
+/*Login*/
+
+.back {
+    float: left;
+    padding: 15px 0 0 15px;
+    width: 20%;
+}
+
+#enter-button {
+    padding: 400px 0 0 0;
+    width: 100%;
+}
+
+#login-entry {
+    padding: 60px 20px 0 38px;
+    width: 80%;
+    
+}
+
+#forgot-user {
+    padding: 10px 20px 0 110px;
+    width: 40%;
+    
+}
+
+/*Login Help*/
+
+#exit {
+    padding: 40px 0 0 20px;
+    position: relative;
+    width: 10%;
+}
+
+
+
+/*Pass Reset*/
+
+#pass-reset {
+    padding: 60px 20px 0 38px;
+    width: 80%;
+}
+
+
+/*Music Page*/
+
+#music-main {
+    background-image: url('../images/album-art/wildheart-album-cover-sized.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 77px; 
+}
+
+#get-it {
+    float: left;
+    padding: 170px 0 0 50px;
+     position: absolute;
+}
+
+#itunes {
+    width: 15%;
+    padding: 230px 0 0 60px;
+    position: relative;
+}
+
+#listen {
+    float: right;
+    padding: 170px 50px 0 0;
+    
+}
+
+#spotify {
+    float: right;
+    width: 15%;
+    padding: 0 60px 50px 0px;
+    position: relative;
+    
+}
+
+#share {
+    width: 10%;
+    padding: 0 0 10px 50px;
+}
+
+/*News Page*/
+
+#news { 
+    background-image: url('../assets/misc/aa-news-backdrop.png');
+    background-repeat: no-repeat;
+    background-position: 0 40px; 
+    background-size: 100%;
+}
+
+.scrollable-posts {
+    padding-top: 5px;
+    line-height: 8px;
+}
+
+/*Tour Page*/
+
+#tour { 
+    background-image: url('../assets/misc/aa-tour-backdrop.png');
+    background-repeat: no-repeat;
+    background-position: center bottom; 
+    background-size: 110%;
+}
+
+/*Shop + Photos*/
+
+.swipable-photos {
+    position: absolute;
+    width: 100%;
+}
+
+.side-gradients {
+    position: relative;
+}
+
+#left-gradient {
+    float: left;
+    width: 20%;
+}
+
+#right-gradient {
+    float: right;
+    width: 20%;
+}
+
+.shop-buttons {
+    padding: 400px 0 0 0;
+    position: relative;
+    
+}
+
+#add-cart {
+    float: left;
+    padding-left: 110px;
+    width: 20%;
+    
+}
+
+#cart {
+    float: right;
+    width: 20%;
+}
+
+#share-icon {
+    float: left;
+    padding: 200px 40px 0 0;
+    position: relative;
+    width: 15%;
+}
+
+#photo-comments {
+    background-image: url('../assets/comments/photo-comments-backdrop.png');
+    background-repeat: no-repeat;
+    background-position: center bottom; 
+    background-size: 110%;
+}
+
+#comment-header {
+    color: #DE2A2A;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 80px 0 0 0;
+}
+
+/*Launch Page*/
 
 .button-box {
     background-color: #DE2A2A;
     height: 78px;
     width: 375px;
-    
+    margin-bottom:20px;
 }
 
 

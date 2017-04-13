@@ -9,10 +9,10 @@ for (i = 0;i < 100; i++){
   
   
 //  //mouse interaction
-//  $('.element').mouseover(function(){
+//  $('.box-button').mouseover(function(){
 //    $(this).css('background-color','black');
 //  });
-//  $('.element').mouseout(function(){
+//  $('.box-button').mouseout(function(){
 //    $(this).css('background-color','#ff3151');
 //  });
   
