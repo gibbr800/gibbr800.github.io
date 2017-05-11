@@ -1,5 +1,4 @@
 .status-bar {
-    
     width:100%;
     
 }
@@ -8,7 +7,7 @@
 
 .aa-header {
     position: absolute;
-    width: 32.8%;
+    width: 375px;
 }
 
 #login-header {
@@ -88,7 +87,6 @@ ul a:visited {
 /*General Body*/
 
 body {
-    background: gray;
     margin:0;
 }
 .container {
@@ -101,7 +99,7 @@ body {
 
 #login-help {
     position: absolute;
-    width: 33.2%;
+    width: 375px;
 }
 
 a {
@@ -153,6 +151,10 @@ h4 {
 }
 
 .page-header {
+    position: absolute;
+    padding: 80px 0 0 120px;
+    text-align: center;
+    
 }
 
 .post-author-timestamp {
@@ -172,8 +174,8 @@ h4 {
 }
 
 #white-gradient {
-    width: 32.72%;
-    padding: 31px 5px 0 0;
+    width: 375px;
+    padding-top: 64px;
     position: absolute;
 }
 
@@ -186,7 +188,8 @@ h4 {
 }
 
 #enter-button {
-    padding: 400px 0 0 0;
+    padding: 50px 0 0 0;
+    position: relative;
     width: 100%;
 }
 
@@ -222,6 +225,10 @@ h4 {
 
 /*Music Page*/
 
+#music-div {
+    height: 667px;
+}
+
 #music-main {
     background-image: url('../images/album-art/wildheart-album-cover-sized.jpg');
     background-repeat: no-repeat;
@@ -230,33 +237,40 @@ h4 {
 
 #get-it {
     float: left;
-    padding: 170px 0 0 50px;
+    padding: 500px 0 0 50px;
      position: absolute;
 }
 
 #itunes {
-    width: 15%;
-    padding: 230px 0 0 60px;
-    position: relative;
+    width: 50px;
+    padding: 560px 0 0 60px;
+    position: absolute;
 }
 
 #listen {
     float: right;
-    padding: 170px 50px 0 0;
+    padding: 500px 0 0 247px;
+    position: absolute;
     
 }
 
 #spotify {
     float: right;
-    width: 15%;
-    padding: 0 60px 50px 0px;
-    position: relative;
+    width: 50px;
+    padding: 560px 0 0 263px;
+    position: absolute;
     
 }
 
 #share {
-    width: 10%;
-    padding: 0 0 10px 50px;
+    width: 35px;
+    padding: 565px 0 0 170px;
+    position: absolute;
+}
+
+#music-wildheart {
+    position: absolute;
+    margin: 410px 0 0 125px;
 }
 
 /*News Page*/
@@ -266,6 +280,10 @@ h4 {
     background-repeat: no-repeat;
     background-position: 0 40px; 
     background-size: 100%;
+}
+
+#news-div {
+    padding-top: 200px;
 }
 
 .scrollable-posts {
@@ -351,9 +369,13 @@ h4 {
     margin-bottom:20px;
 }
 
+/*Search Page*/
 
-
-
+#search {
+    width: 350px;
+    padding-left: 12px;
+    position: relative;
+}
 
 
 

@@ -28,9 +28,6 @@ h2 {
 
 body {
     background-color: #FFB6CE;
-    border-style: solid;
-    border-color: #E53758;
-    border-width: 20px;
     padding-bottom: 530em;
     clear: both;
 
@@ -58,7 +55,7 @@ img {
 }
 
 .fotorama {
-    clear: both;
+    float: right;
     
 }
 /*.hk-overlay:hover {
